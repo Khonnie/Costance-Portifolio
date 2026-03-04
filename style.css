@@ -306,6 +306,22 @@ header {
   display: inline-block;
   margin-top: 10px;
 }
+.live-demo {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.live-demo:hover {
+  background-color: black;
+  color: white;
+}
 
 /* =========================
    SKILLS

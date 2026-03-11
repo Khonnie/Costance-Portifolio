@@ -36,31 +36,23 @@
     </div>
     <!-- Navigation sections -->
     <ul class="middle">
+      <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
 
       <li class="dropdown">
         <a href="#projects">Projects</a>
-        <!-- <ul class="menu-items">
-          <li>Project1</li>
-          <li>Project2</li>
-          <li>Project3</li>
-          <li>Project4</li>
-        </ul> -->
+
       </li>
 
       <li class="dropdown">
         <a href="#skills">Skills</a>
-        <!-- <ul class="menu-items">
-          <li>Languages</li>
-          <li>Frameworks</li>
-          <li>Environments</li>
-          <li>Tools</li>
-        </ul> -->
+
       </li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div class="right-side">
-      <a href="#experience">Browse work</a>
+      <a href="resume/Costance-Manake-Resume.pdf" target="_blank">Resume</a>
       <span><i class="fa-regular fa-sun"></i></span>
     </div>
   </header>
@@ -68,169 +60,470 @@
   <section class="hero">
     <img src="images/connie.jpg" alt="passport-photo" width="200px" height="220px">
     <div class="hero-wrapper">
-      <h2>Frontend Web Developer Building Responsive & Scalable Web Applications</h2>
-      <p>I design and develop modern, user-focused web applications using
+      <p class="hero-subtitle">Frontend Developer & UI/UX Enthusiast</p>
+      <p class="hero-text">I design and develop modern, user-focused web applications using
         HTML, CSS, JavaScript, React, Tailwind CSS, and REST APIs.
         Passionate about clean code, performance optimization, and
         creating seamless digital experiences.</p>
-      <div class="hero-links"><a href="https://www.linkedin.com/in/costance-manake-a4429895" target="_blank" class="hero-In"> <i class="fab fa-linkedin"></i>
+      <div class="hero-buttons">
+        <a href="https://www.linkedin.com/in/costance-manake-a4429895" target="_blank" class="btn first-btn"> <i
+            class="fab fa-linkedin"></i>
           Connect</a>
-        <a href="#experience" class="hero-browse">Browsework</a>
+        <a href="#experience" class="btn second-btn">Browsework</a>
       </div>
 
     </div>
   </section>
-  <!-- ----------Experience Section---------- -->
-  <section class="experience" id="experience">
-    <h2 class="section-title">Experience</h2>
-    <!-- Item 1 -->
-    <div class="experience1">
-      <div class="company_dates">
-        <p>Freelance & Personal Development Projects</p>
-        <p>October 2025 – Present</p>
+  <!-- About me section -->
+  <section id="about" class="about-section">
+
+    <div class="about-container">
+
+      <h2 class="about-title">About Me</h2>
+
+      <div class="about-card">
+
+        <div class="about-text">
+
+          <p>
+            I hold a bachelor of science degree in telecommunication engineering with experience
+            in electricity distribution. I am currently transitioning into the field of software development,
+            that i have always had a strong passion for.
+
+          </p>
+
+          <p>
+            My journey into web development started with a curiosity about how websites work,
+            and has evolved into a career focused on creating exceptional user experiences.
+            I'm constantly learning and staying up-to-date with the latest technologies and
+            best practices in the industry.
+          </p>
+
+          <!-- <p>
+            I also plan to start contributing to open-source projects,
+            or exploring new design trends.
+          </p> -->
+
+        </div>
 
       </div>
-      <div class="title_activities">
-        <h3>Frontend Web Developer</h3>
-        <ul>
-          <li>> Build responsive web applications using HTML, CSS, JavaScript, React, and Tailwind CSS</li>
-          <li>> Implement REST API integration for dynamic data rendering</li>
-          <li>> Develop reusable components and structured layouts</li>
-          <li>> Apply form validation and client-side logic for user interaction</li>
-          <li>> Practice clean code principles and version control with Git</li>
-          <li>> Design UI mockups using Figma</li>
-        </ul>
-      </div>
+
     </div>
-    <!-- Item 2 -->
-    <!-- <div class="experience1">
-      <div class="company_dates">
-        <p>Women in Technology Uganda-WITU</p>
-        <p>February – April 2026</p>
 
-      </div>
-      <div class="title_activities">
-        <h3>Frontend Web Developer-Learning</h3>
-        <ul>
-          <li>> Build website using HTML, and CSS </li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+  </section>
+  <!-- ----------Experience Section---------- -->
+  <section id="experience" class="experience-section">
+
+    <div class="experience-container">
+
+      <h2 class="experience-title">Experience</h2>
+
+      <div class="experience-card">
+
+        <div class="experience-header">
+          <div class="company">
+            <p>Freelance & Personal Development Projects</p>
+            <h3>Frontend Web Developer</h3>
+          </div>
+
+          <div class="dates">
+            <p>October 2025 – Present</p>
+          </div>
+        </div>
+
+        <ul class="experience-list">
+          <li>Build responsive web applications using HTML, CSS, JavaScript, React, and Tailwind CSS</li>
+          <li>Implement REST API integration for dynamic data rendering</li>
+          <li>Develop reusable components and structured layouts</li>
+          <li>Apply form validation and client-side logic for user interaction</li>
+          <li>Practice clean code principles and version control with Git</li>
+          <li>Design UI mockups using Figma</li>
         </ul>
-      </div>
-    </div> -->
 
+      </div>
+
+    </div>
 
   </section>
   <!-- <hr> -->
 
   <!-- Projects Section-->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Expense Tracker Application</h3>
-      <p>A responsive web application that allows users to add, track, and manage income and expenses with automatic
-        balance calculation and persistent data storage.</p>
+  <section id="projects" class="projects-section">
 
-      <div>
-        <h4>Tech Stack:</h4>
-        <p>HTML, CSS, JavaScript, LocalStorage</p>
+    <div class="projects-container">
+
+      <h2 class="projects-title">Featured Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+          <h3>Personal Portfolio Website</h3>
+
+          <p class="project-description">
+            A modern responsive developer portfolio built to showcase my projects,
+            skills, and experience. Designed with a clean UI and optimized for
+            performance and accessibility.
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub Pages</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/Costance-Portifolio" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/Costance-Portifolio/
+" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+          <h3>Delicious Bites Restaurant Landing Page</h3>
+
+          <p class="project-description">
+            A modern restaurant landing page built using HTML and CSS as part of the
+            Women in Technology Uganda (WITU) Web Development assignment. The page
+            features a clean layout, menu sections, pricing tables, and a contact
+            form designed for a great user experience.
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Responsive Design</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/delicious-bites" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/delicious-bites/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+        <!-- project 3 -->
+        <div class="project-card">
+
+          <h3>Task Management App</h3>
+
+          <p class="project-description">
+            A dynamic task management application that allows users to create, edit, complete and Delete tasks with
+            persistent storage using localStorage. The app features a clean and intuitive interface, making it easy for
+            users to organize their tasks and boost productivity.
+
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>localStorage</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/simple_task_manager" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/simple_task_manager/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Project 4 -->
+        <div class="project-card">
+
+          <h3>Expense Tracker Application</h3>
+
+          <p class="project-description">
+            A responsive web application that allows users to add, edit, delete and manage income
+            and expenses with automatic balance calculation and persistent data storage.
+
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>localStorage</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/Expense-Tracker-" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/Expense-Tracker-/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Project 5 -->
+        <div class="project-card">
+
+          <h3>Bookmark Manager</h3>
+
+          <p class="project-description">
+            A browser-based bookmark manager that allows users to save, organize, and manage their favorite websites
+            with a clean and intuitive interface.
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>localStorage</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/Bookmark_Marker" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/Bookmark_Marker/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+
+        <!-- Project 6 -->
+        <div class="project-card">
+
+          <h3>Form Validation</h3>
+
+          <p class="project-description">
+            A client-side form validation project that validates user input in real-time, providing instant feedback on
+            form fields such as name, email, password, and confirm password to ensure data integrity and enhance user
+            experience.
+          </p>
+
+          <div class="project-tech">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>localStorage</span>
+
+          </div>
+
+          <div class="project-links">
+
+            <a href="https://github.com/Khonnie/HTML_CSS_JS_PROJECTS/tree/main/FormValidation" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+
+            <a href="https://khonnie.github.io/FormValidation/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+
+          </div>
+
+        </div>
+
       </div>
-      <a href="http://" target="_blank" class="live-demo">Live Demo</a>
-
-    </div>
-    <!-- project 2 -->
-    <div class="project">
-      <h3>Task Manager</h3>
-      <p>A dynamic task management app that enables users to create, complete, filter, and delete tasks with persistent
-        state management.</p>
-
-      <div>
-        <h4>Tech Stack:</h4>
-        <p>HTML, CSS, JavaScript, LocalStorage</p>
-      </div>
-      <a href="http://" target="_blank" class="live-demo">Live Demo</a>
-
-    </div>
-    <!-- project 3 -->
-    <div class="project">
-      <h3>Bookmark Manager</h3>
-      <p>A browser-based bookmark management tool that allows users to save, validate, and organize website links with
-        local storage persistence.</p>
-
-      <div>
-        <h4>Tech Stack:</h4>
-        <p>HTML, CSS, JavaScript, LocalStorage</p>
-      </div>
-      <a href="http://" target="_blank" class="live-demo">Live Demo</a>
-
-    </div>
-    <!-- project 4 -->
-    <div class="project">
-      <h3>Weather App</h3>
-      <p>A responsive web app that fetches real-time weather data from a REST API and displays dynamic weather
-        conditions based on user input.</p>
-
-      <div>
-        <h4>Tech Stack:</h4>
-        <p>HTML, CSS, JavaScript</p>
-      </div>
-      <a href="http://" target="_blank" class="live-demo">Live Demo</a>
-
-    </div>
-    <!-- project 5 -->
-    <div class="project">
-      <h3>Form Validation System</h3>
-      <p>A client-side validation application that ensures accurate user input through real-time form validation and
-        error handling.</p>
-
-      <div>
-        <h4>Tech Stack:</h4>
-        <p>HTML, CSS, JavaScript</p>
-      </div>
-      <a href="http://" target="_blank" class="live-demo">Live Demo</a>
-
     </div>
 
   </section>
   <!-- <hr> -->
   <!-- Skills and Technologies section -->
-  <section class="skills" id="skills">
-    <h2>Skills & Technologies</h2>
-    <div class="buttons">
-      <button type="button"><i class="fa-brands fa-html5"></i> HTML</button>
-      <button type="button"><i class="fa-brands fa-css3-alt"></i>CSS</button>
-      <button type="button"><i class="fa-brands fa-js"></i>JavaScript</button>
-      <button type="button"><i class="fa-brands fa-react"></i>React</button>
+  <section id="skills" class="skills-section">
+
+    <div class="skills-container">
+
+      <h2 class="skills-title">Skills & Technologies</h2>
+
+      <div class="skills-grid">
+
+        <!-- Frontend -->
+        <div class="skills-card">
+
+          <h3>Frontend</h3>
+
+          <div class="skills-list">
+
+            <span>React</span>
+            <span>TypeScript Learning</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+
+          </div>
+
+        </div>
+
+
+        <!-- Styling -->
+        <div class="skills-card">
+
+          <h3>Styling</h3>
+
+          <div class="skills-list">
+
+            <span>Tailwind CSS exploring</span>
+            <span>Bootstrap</span>
+            <span>CSS3</span>
+            <!-- <span>CSS Modules</span>
+            <span>Material UI</span> -->
+
+          </div>
+
+        </div>
+
+
+        <!-- Tools -->
+        <div class="skills-card">
+
+          <h3>Tools & Others</h3>
+
+          <div class="skills-list">
+
+            <span>Git</span>
+            <span>Webpack</span>
+            <span>Vite</span>
+            <span>Figma</span>
+            <span>REST APIs exploring</span>
+            <span>Node.js exploring</span>
+            <span>Express.js exploring</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
+
   </section>
 
   <!-- Get in touch -->
-  <section class="footer">
-    <h2>Get in Touch</h2>
-    <p>Open to new opportunities and collaborations.</p>
-    <form action="">
-      <div class="form-group"><label for="email">Email </label><input type="email" id="email" required></div>
-      <div class="form-group"><label for="message">Message</label><textarea name="" id="message"></textarea></div>
-      <button type="submit">Send Message</button>
-    </form>
-    <div class="links">
-      <a href="https://github.com/khonnie" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+  <section id="contact" class="contact-section">
 
-      <a href="https://www.linkedin.com/in/costance-manake-a4429895" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
+    <div class="contact-container">
 
-      <a href="mailto:mcostance@gmail.com">
-        <i class="fa-solid fa-at"></i>
-      </a>
+      <h2 class="contact-title">Get In Touch</h2>
+
+      <div class="contact-card">
+
+        <p class="contact-text">
+          Have a project in mind or want to collaborate? Feel free to reach out!
+        </p>
+
+        <!-- Formspree Form -->
+        <form action="https://formspree.io/f/mojkdnrw" method="POST" class="contact-form">
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+
+        </form>
+
+      </div>
+
     </div>
 
-    <p>&copy; 2026 Costance Manake. All rights reserved.</p>
   </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-content">
+
+        <div class="footer-text">
+
+          <p class="made-with">
+            Made with <span class="heart"><i class="fas fa-heart"></i></span> by Costance Manake
+          </p>
+
+          <p class="copyright">
+            © <span id="year"></span> All rights reserved.
+          </p>
+
+        </div>
+
+
+        <div class="footer-socials">
+
+          <a href="https://github.com/khonnie" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/costance-manake-a4429895" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="mailto:mcostance@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 
